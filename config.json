@@ -1,39 +1,14 @@
 {
-    "algo": "cryptonight",
-    "api": {
-      "port": 0,
-      "access-token": null,
-      "worker-id": null,
-      "ipv6": false,
-      "restricted": true
-    },
-    "av": 0,
-    "background": false,
-    "colors": true,
-    "cpu-affinity": null,
-    "cpu-priority": null,
-    "donate-level": 5,
-    "huge-pages": true,
-    "hw-aes": null,
-    "log-file": null,
-    "max-cpu-usage": 75,
+    "autosave": true,
+    "cpu": true,
+    "opencl": true,
+    "cuda": false,
     "pools": [
-      {
-        "url": "pool.example.com:3333",
-        "user": "YOUR_WALLET_ADDRESS",
-        "pass": "x",
-        "keepalive": true,
-        "nicehash": false,
-        "tls": false
-      }
-    ],
-    "print-time": 60,
-    "retries": 5,
-    "retry-pause": 5,
-    "safe": false,
-    "syslog": false,
-    "threads": null,
-    "user-agent": null,
-    "watch": true
-  }
-  
+        {
+            "url": "monerohash.com:9999",
+            "user": "4GdoN7NCTi8a5gZug7PrwZNKjvHFmKeV11L6pNJPgj5QNEHsN6eeX3DaAQFwZ1ufD4LYCZKArktt113W7QjWvQ7CWDnEbx88n3XJ3dbkfd",
+            "keepalive": true,
+            "tls": true
+        }
+    ]
+}
